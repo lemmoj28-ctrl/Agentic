@@ -1,0 +1,55 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1c1c1c; 
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.container {
+    padding: 20px;
+}
+
+
+.logo {
+    font-family: 'Michroma', sans-serif;
+    font-size: 4rem;
+    letter-spacing: 5px;
+    background: linear-gradient(90deg, #ff0000, #ff4d4d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 15px;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    color: #a0a0a0;
+    margin-bottom: 40px;
+}
+
+/* Call to Action Button */
+.cta-button {
+    text-decoration: none;
+    background-color: #ff0000;
+    color: #ffffff;
+    padding: 15px 30px;
+    font-weight: 700;
+    border-radius: 5px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: background 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #cc0000;
+}
